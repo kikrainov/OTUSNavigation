@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		CA3B0B4D2907147000FE326D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3B0B4C2907147000FE326D /* AppDelegate.swift */; };
 		CA3B0B4F2907147000FE326D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3B0B4E2907147000FE326D /* SceneDelegate.swift */; };
-		CA3B0B512907147000FE326D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3B0B502907147000FE326D /* ViewController.swift */; };
+		CA3B0B512907147000FE326D /* ViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3B0B502907147000FE326D /* ViewControllerOne.swift */; };
 		CA3B0B542907147000FE326D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3B0B522907147000FE326D /* Main.storyboard */; };
 		CA3B0B562907147000FE326D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3B0B552907147000FE326D /* Assets.xcassets */; };
 		CA3B0B592907147000FE326D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3B0B572907147000FE326D /* LaunchScreen.storyboard */; };
+		CAA66EEE29187089001B52B9 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA66EED29187089001B52B9 /* ViewControllerTwo.swift */; };
+		CAA66EF0291870E1001B52B9 /* PurpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA66EEF291870E1001B52B9 /* PurpleViewController.swift */; };
+		CAA66EF2291870F3001B52B9 /* GrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA66EF1291870F3001B52B9 /* GrayViewController.swift */; };
+		CAA66EF429187106001B52B9 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA66EF329187106001B52B9 /* BlueViewController.swift */; };
+		CAA66EF629187114001B52B9 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA66EF529187114001B52B9 /* RedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CA3B0B492907147000FE326D /* OTUSNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTUSNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3B0B4C2907147000FE326D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA3B0B4E2907147000FE326D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CA3B0B502907147000FE326D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA3B0B502907147000FE326D /* ViewControllerOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerOne.swift; sourceTree = "<group>"; };
 		CA3B0B532907147000FE326D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA3B0B552907147000FE326D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA3B0B582907147000FE326D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA3B0B5A2907147000FE326D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA66EED29187089001B52B9 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		CAA66EEF291870E1001B52B9 /* PurpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleViewController.swift; sourceTree = "<group>"; };
+		CAA66EF1291870F3001B52B9 /* GrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayViewController.swift; sourceTree = "<group>"; };
+		CAA66EF329187106001B52B9 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		CAA66EF529187114001B52B9 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +68,13 @@
 			children = (
 				CA3B0B4C2907147000FE326D /* AppDelegate.swift */,
 				CA3B0B4E2907147000FE326D /* SceneDelegate.swift */,
-				CA3B0B502907147000FE326D /* ViewController.swift */,
+				CA3B0B502907147000FE326D /* ViewControllerOne.swift */,
 				CA3B0B522907147000FE326D /* Main.storyboard */,
+				CAA66EF329187106001B52B9 /* BlueViewController.swift */,
+				CAA66EF529187114001B52B9 /* RedViewController.swift */,
+				CAA66EEF291870E1001B52B9 /* PurpleViewController.swift */,
+				CAA66EF1291870F3001B52B9 /* GrayViewController.swift */,
+				CAA66EED29187089001B52B9 /* ViewControllerTwo.swift */,
 				CA3B0B552907147000FE326D /* Assets.xcassets */,
 				CA3B0B572907147000FE326D /* LaunchScreen.storyboard */,
 				CA3B0B5A2907147000FE326D /* Info.plist */,
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA3B0B512907147000FE326D /* ViewController.swift in Sources */,
+				CA3B0B512907147000FE326D /* ViewControllerOne.swift in Sources */,
 				CA3B0B4D2907147000FE326D /* AppDelegate.swift in Sources */,
+				CAA66EF0291870E1001B52B9 /* PurpleViewController.swift in Sources */,
+				CAA66EF2291870F3001B52B9 /* GrayViewController.swift in Sources */,
+				CAA66EF629187114001B52B9 /* RedViewController.swift in Sources */,
 				CA3B0B4F2907147000FE326D /* SceneDelegate.swift in Sources */,
+				CAA66EEE29187089001B52B9 /* ViewControllerTwo.swift in Sources */,
+				CAA66EF429187106001B52B9 /* BlueViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
