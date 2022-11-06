@@ -8,6 +8,11 @@
 import UIKit
 
 class RedViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        print("Red VC loaded")
+    }
 
     /*
     // Only override draw() if you perform custom drawing.

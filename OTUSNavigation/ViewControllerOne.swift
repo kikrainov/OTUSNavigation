@@ -8,9 +8,18 @@
 import UIKit
 
 class ViewControllerOne: UIViewController {
-
+    
+    
+    @IBAction func button1Clicked(_ sender: Any) {
+    }
+    
+    @IBAction func button2Clicked(_ sender: Any) {
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("VC1 loaded")
         // Do any additional setup after loading the view.
     }
 

@@ -22,6 +22,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button 2"/>
                                 <connections>
+                                    <action selector="button2Clicked:" destination="HhC-eU-qYY" eventType="touchUpInside" id="uKR-ZT-dne"/>
                                     <segue destination="lNN-cQ-OP9" kind="show" id="m2H-Fo-chF"/>
                                 </connections>
                             </button>
@@ -31,6 +32,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button 1"/>
                                 <connections>
+                                    <action selector="button1Clicked:" destination="HhC-eU-qYY" eventType="touchUpInside" id="tMz-VW-JDU"/>
                                     <segue destination="gNQ-BX-pfU" kind="show" id="kbR-90-iET"/>
                                 </connections>
                             </button>
@@ -90,6 +92,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button 2"/>
                                 <connections>
+                                    <action selector="button2Clicked:" destination="7QV-p0-Vuc" eventType="touchUpInside" id="xkT-jG-EvR"/>
                                     <segue destination="Cnb-fd-rvW" kind="show" id="sbc-Nd-Wjf"/>
                                 </connections>
                             </button>
@@ -99,6 +102,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button 1"/>
                                 <connections>
+                                    <action selector="button1Clicked:" destination="7QV-p0-Vuc" eventType="touchUpInside" id="Mxl-QK-idL"/>
                                     <segue destination="jal-9A-sfU" kind="show" id="7EJ-Nc-1Ji"/>
                                 </connections>
                             </button>

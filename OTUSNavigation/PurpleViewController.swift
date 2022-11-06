@@ -8,6 +8,11 @@
 import UIKit
 
 class PurpleViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        print("Purple VC loaded")
+    }
 
     /*
     // Only override draw() if you perform custom drawing.

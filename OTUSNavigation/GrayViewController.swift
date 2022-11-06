@@ -8,6 +8,11 @@
 import UIKit
 
 class GrayViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        print("Gray VC loaded")
+    }
 
     /*
     // Only override draw() if you perform custom drawing.
